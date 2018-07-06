@@ -4,7 +4,14 @@ body
   color: #aaaaaa;
 }
 
-ul
+#olist
 {
-  color: #b4d455;
+  width: 25%;
+  background-color: #00131c;
+}
+
+li:hover
+{
+  color: #888888;
+  cursor: pointer;
 }
