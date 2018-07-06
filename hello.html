@@ -7,23 +7,44 @@
     <title> lecture0 </title>
   </head>
   <body>
-    <h1> Lists </h1>
+    <header>
+      Lists
+    </header>
+    <div id = "ulist">
+    <h2>an unordered list</h2>
+    <ul>
+      <li>
+        <a href = "#olist"> pos1 </a>
+      </li>
+      <li><a href = "#content"> pos2 </a>
+      </li>
+    </ul>
+  </div>
 
-<h2>an unordered list</h2>
-<ul>
-<li> pos1 </li>
-<li> pos2 </li>
-<li> pos3 </li>
-</ul>
+  <br> <br>
 
-<br> <br>
+  <div id = "olist">
+    <h2>an ordered list</h2>
+    <ol>
+      <li>
+        <a href = "#ulist">pos1</a>
+      </li>
+      <ul>
+        <li> li li li li</li>
+        <li> laj </laj>
+      </ul>
+      <li> pos2 </li>
+      <li> pos3 </li>
+    </ol>
+  </div>
 
-<div id = "olist">
-<h2>an ordered list</h2>
-<ol>
-<li> pos1 </li>
-<li> pos2 </li>
-<li> pos3 </li>
-</ol>
-</div>
+  <div id = "content">
+    <input name = "name" list="zadupia" placeholder="wybierz zadupie">
+    <datalist id="zadupia">
+      <option value = "repty">
+      <option value = "bobry">
+      <option value = "orzech">
+      <option value = "stolary">
+      <option value = "górniki">
+
 </html>
